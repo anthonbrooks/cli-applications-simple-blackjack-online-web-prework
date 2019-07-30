@@ -59,6 +59,7 @@ end
 def runner
   welcome
   card_total = initial_round
+  prompt_user
   
   until card_total > 21 || get_user_input == 's'
     card_total = hit? (card_total)
