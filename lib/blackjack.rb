@@ -41,7 +41,8 @@ def hit? (card_total)
   if ui == 'h'
     card_total += deal_card
   elsif ui == 's'
-    card_total = end_game(card_total)
+    puts card_total 
+    puts "Thanks for playing!"
   else
    
   end
