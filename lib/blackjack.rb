@@ -44,8 +44,7 @@ def hit? (card_total)
     puts display_card_total 
     puts "Thanks for playing!"
   end
-   
-  end
+  
   card_total
 end
 
