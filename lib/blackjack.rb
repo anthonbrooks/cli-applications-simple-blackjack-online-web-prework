@@ -26,11 +26,10 @@ def initial_round
   sum = deal_card + deal_card
   display_card_total(sum)
   sum
-  prompt_user
 end
 
 def hit? (card_total)
-  
+  prompt_user
   ui = get_user_input
   
   until ["h", "s"].include?(ui)
