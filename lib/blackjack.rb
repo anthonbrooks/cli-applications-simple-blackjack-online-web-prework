@@ -40,6 +40,8 @@ def hit? (card_total)
   
   if ui == 'h'
     card_total += deal_card
+  elsif ui == 's'
+    end_game
   else
    
   end
